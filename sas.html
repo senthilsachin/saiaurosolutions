@@ -1,0 +1,303 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sai Auro Solutions - XML & ePub Conversion Specialists</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@preline/preline@2.0.0/dist/preline.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            .hero {
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://t3.ftcdn.net/jpg/12/79/44/18/240_F_1279441894_yb4PCJiqDPvHEDTTROeWPi9aXp1incbW.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+            .service-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            }
+            .transition-all {
+                transition: all 0.3s ease;
+            }
+        </style>
+    </head>
+    <body class="font-sans antialiased">
+        <!-- Navigation -->
+        <nav class="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                    	<img src="https://www.google.com/u/2/ac/images/logo.gif?uid=100076411984091859849&service=google_gsuite" alt="Your Logo" class="h-8 mr-5" />
+                        <i class="fas fa-book-open text-blue-600 dark:text-primary-400 text-3xl mr-5"></i>
+                            <span class="text-4xl font-bold text-blue-900">Sai Auro Solutions</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                        <a href="#home" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#services" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
+                        <a href="#process" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Our Process</a>
+                        <a href="#about" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#contact" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                    <div class="flex items-center md:hidden">
+                        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero text-white py-20 md:py-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="md:w-2/3">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Professional XML & ePub Conversion Services</h1>
+                    <p class="text-xl mb-8">Transform your documents into structured XML and perfectly formatted ePub files with our expert conversion services.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all">Get a Free Quote</a>
+                        <a href="#services" class="bg-transparent hover:bg-white hover:text-gray-900 border-2 border-white text-white font-bold py-3 px-6 rounded-lg transition-all">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Specialized Services</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">We provide high-quality conversion services for all your digital publishing needs</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- XML Conversion Service -->
+                    <div class="service-card bg-white p-8 rounded-lg shadow-md transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-file-code text-blue-600 text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">XML Conversion Services</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Convert your documents to well-structured XML format with perfect tagging and metadata.</p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>PDF/Word/HTML to XML conversion</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Custom DTD/Schema development</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Metadata tagging and enrichment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Content normalization</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                            Learn more <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- ePub Conversion Service -->
+                    <div class="service-card bg-white p-8 rounded-lg shadow-md transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-book-open text-blue-600 text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">ePub Conversion Services</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">Create professional, reflowable ePub files that work across all e-reader devices.</p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>PDF/Word/XML to ePub conversion</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>ePub 2.0 & 3.0 standards compliance</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Fixed-layout & reflowable ePub</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Interactive elements support</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">
+                            Learn more <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Process Section -->
+        <section id="process" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Conversion Process</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">A systematic approach to ensure quality and accuracy in every conversion</p>
+                </div>
+                
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-file-upload text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">1. Source Submission</h3>
+                        <p class="text-gray-600">You send us your source files in any format</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-search text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">2. Analysis</h3>
+                        <p class="text-gray-600">We analyze structure and requirements</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-cogs text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">3. Conversion</h3>
+                        <p class="text-gray-600">Expert conversion to target format</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">4. Quality Check</h3>
+                        <p class="text-gray-600">Rigorous quality assurance process</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="md:flex items-center">
+                    <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6">About Sai Auro Solutions</h2>
+                        <p class="text-gray-600 mb-6">We are a team of XML and ePub specialists with over 19 years of experience in digital content conversion.</p>
+                        <p class="text-gray-600 mb-6">Our expertise spans across multiple industries including publishing, education, and corporate documentation.</p>
+                        <p class="text-gray-600">We pride ourselves on delivering accurate, well-structured conversions that meet industry standards and client specifications.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://t4.ftcdn.net/jpg/12/68/02/17/240_F_1268021771_WlXsq60CMy5IlP4sD8lwguh4ooudth7s.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-blue-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+                    <p class="text-lg max-w-3xl mx-auto">Ready to convert your documents? Contact us for a free quote or consultation.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div>
+                        <form class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium">Your Name</label>
+                                <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 p-3 text-gray-900">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium">Email Address</label>
+                                <input type="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 p-3 text-gray-900">
+                            </div>
+                            <div>
+                                <label for="service" class="block text-sm font-medium">Service Needed</label>
+                                <select id="service" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 p-3 text-gray-900">
+                                    <option>XML Conversion</option>
+                                    <option>ePub Conversion</option>
+                                    <option>Both Services</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium">Your Message</label>
+                                <textarea id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 p-3 text-gray-900"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition-all">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-500 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-1">Our Office</h3>
+                                <p class="text-blue-100">11A, Bajanaimadam Street,<br>Ellaipillaichavady, Pondicherry 605005</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-500 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-1">Call Us</h3>
+                                <p class="text-blue-100">+919790005310<br>Mon-Fri, 9am-6pm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-500 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-1">Email Us</h3>
+                                <p class="text-blue-100">senthilkumar@saiaurosolutions<br>vendor@saiaurosolutions.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 flex items-center">
+                            <i class="fas fa-code text-blue-400 mr-2"></i> Sai Auro Solutions
+                        </h3>
+                        <p class="text-gray-400">Professional XML and ePub conversion services for businesses and publishers.</p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Services</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">XML Conversion</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">ePub Conversion</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Content Tagging</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Metadata Services</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Company</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#about" class="text-gray-400 hover:text-white">About Us</li>
